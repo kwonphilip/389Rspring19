@@ -13,7 +13,7 @@ Digital acknowledgement: Philip Kwon
 
 1. 	Name: Elizabeth Moffet
 
-	I used the username search tools from osintframeword.com to search for "v0idcache." There I found v0idcache's Twitter, which had her name.
+	I used the username search tools from osintframework.com to search for "v0idcache." There I found v0idcache's Twitter, which had her name.
 
 2. 	Workplace: 13/37th National Bank
 	URL: 1337bank.money
@@ -69,6 +69,6 @@ CMSC389R-{brut3_f0rce_m4ster}
 
 CMSC389R-{YWX4H3d3Bz6dx9lG32Odv0JZh}
 
-	For the brute force program, I simply made a for loop. For each iteration of the for loop, I connected to the IP and port and then input v0idcache as the username and the next password in the wordlist. If the password did not fail, then I had the program print the password and then terminate.
+For the brute force program, I simply made a for loop. For each iteration of the for loop, I connected to the IP and port and then input v0idcache as the username and the next password in the wordlist. If the password did not fail, then I had the program print the password and then terminate.
 
-	Once I gained access to the account, the first place I looked was in the "home" folder which had a file named "flag.txt". I checked that file and found the first flag above. Previously, when I googled "v0idcache", I found a pastebin conversation where v0idcache specifically mentions the file "AB4300.txt". I found the file in "/home/files" and found the second flag above.
+Once I gained access to the account, the first place I looked was in the "home" folder which had a file named "flag.txt". I checked that file and found the first flag above. Previously, when I googled "v0idcache", I found a pastebin conversation where v0idcache specifically mentions the file "AB4300.txt". I found the file in "/home/files" and found the second flag above.
