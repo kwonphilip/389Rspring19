@@ -31,12 +31,12 @@ After setting up the security questions, I would tell her that we were still loo
 
 1. Vulnerability - The robots.txt file and the /secret_directory
 
-	The robots.txt file is publicly accessible, and it was there that I discovered the secret_directory. Therefore, I would make sure that secret information like confidential information and secret directories are not in the robots.txt file.
+	The robots.txt file is publicly accessible, and it was there that I discovered the secret_directory. Therefore, I would make sure that secret information like confidential information and secret directories are not in the robots.txt file (see https://www.beyondsecurity.com/scan_pentest_network_vulnerabilities_robots_txt_detection).
 
 2. Vulnerability - Weak password
 
-	The password used by Elizabeth Moffet was a weak, commonly used password. To prevent this, the system could require passwords to have a minimum number of characters, numbers, characters, symbols, lowercase letters, and uppercase letters. The system could then rate the password and only accept strong passwords. Furthermore, the system could require periodic password changes (i.e. users must change their password every 3 months).
+	The password used by Elizabeth Moffet was a weak, commonly used password. To prevent this, the system could require passwords to have a minimum number of characters, numbers, characters, symbols, lowercase letters, and uppercase letters. The system could then rate the password and only accept strong passwords. Furthermore, the system could require periodic password changes (i.e. users must change their password every 3 months). The following site can provide guidance on creating strong passwords: https://www.howtogeek.com/195430/how-to-create-a-strong-password-and-remember-it/.
 
 3. Vulnerability - Exposed port
 
-	I was able to gain access to v0idcache's account via the exposed port 1337. Therefore, open/exposed ports should be closed if they are unused or do not provide any required services. Furthermore, a firewall with a well defined set of security rules could be set up to monitor network traffic. The firewall will block untrusted external networks.
+	I was able to gain access to v0idcache's account via the exposed port 1337. Therefore, open/exposed ports should be closed if they are unused or do not provide any required services. Furthermore, a firewall with a well defined set of security rules could be set up to monitor network traffic. The firewall will then be able to act as a secure wall for the system (see https://www.watchguard.com/wgrd-resource-center/security-fundamentals/what-is-a-port). 
