@@ -31,12 +31,12 @@ After setting up the security questions, I would tell her that we were still loo
 
 1. Vulnerability - The robots.txt file and the /secret_directory
 
-		The robots.txt file is publicly accessible. Therefore, I would make sure that secret information like confidential information and secret directories are not in the robots.txt file.
+	The robots.txt file is publicly accessible. Therefore, I would make sure that secret information like confidential information and secret directories are not in the robots.txt file.
 
 2. Vulnerability - Weak password
 
-		The password used by Elizabeth Moffet was a weak, commonly used password. To prevent this, the system could require passwords to have a minimum number of characters, numbers, characters, symbols, lowercase letters, and uppercase letters. The system could then rate the password and only accept strong passwords. Furthermore, the system could require periodic password changes (i.e. users must change their password every 3 months)
+	The password used by Elizabeth Moffet was a weak, commonly used password. To prevent this, the system could require passwords to have a minimum number of characters, numbers, characters, symbols, lowercase letters, and uppercase letters. The system could then rate the password and only accept strong passwords. Furthermore, the system could require periodic password changes (i.e. users must change their password every 3 months)
 
 3. Vulnerability - Exposed port
 
-		I was able to gain access to v0idcache's account via the exposed port 1337. Therefore, open/exposed ports should be closed if they are unused or do not provide any required services.
+	I was able to gain access to v0idcache's account via the exposed port 1337. Therefore, open/exposed ports should be closed if they are unused or do not provide any required services.
