@@ -11,7 +11,7 @@ Digital acknowledgement: Philip Kwon
 
 ### Part 1 (40 pts)
 
-I would pretend to be an IT employee from the bank and call Elizabeth Moffet. I would use the information I gathered via OSINT to convince Elizabeth that I am in fact an IT employee from the bank. I would tell her that some hackers had comprised certain accounts, and that I was calling people whose accounts exhibited suspicious activity to help them change their passwords and PIN numbers immediately.
+I would pretend to be an IT employee from the bank and call Elizabeth Moffet. I would use the information I gathered via OSINT to convince Elizabeth that I am in fact an IT employee from the bank. I would tell her that some hackers had comprised certain accounts, and that I was calling people whose accounts exhibited suspicious activity to help them change their passwords and PIN numbers immediately. To make the setting more convincing, I will also play an audio file on loop in the background. The audio file will mimic the sounds of a typical IT department (e.g. keyboards sounds, telephones ringing, indiscernable voices, etc.).
 
 To convince Elizabeth of my pretext, I would first state that I need to confirm her identity. I would do this with statements and questions such as:
 
@@ -31,12 +31,12 @@ After setting up the security questions, I would tell her that we were still loo
 
 1. Vulnerability - The robots.txt file and the /secret_directory
 
-	The robots.txt file is publicly accessible. Therefore, I would make sure that secret information like confidential information and secret directories are not in the robots.txt file.
+	The robots.txt file is publicly accessible, and it was there that I discovered the secret_directory. Therefore, I would make sure that secret information like confidential information and secret directories are not in the robots.txt file.
 
 2. Vulnerability - Weak password
 
-	The password used by Elizabeth Moffet was a weak, commonly used password. To prevent this, the system could require passwords to have a minimum number of characters, numbers, characters, symbols, lowercase letters, and uppercase letters. The system could then rate the password and only accept strong passwords. Furthermore, the system could require periodic password changes (i.e. users must change their password every 3 months)
+	The password used by Elizabeth Moffet was a weak, commonly used password. To prevent this, the system could require passwords to have a minimum number of characters, numbers, characters, symbols, lowercase letters, and uppercase letters. The system could then rate the password and only accept strong passwords. Furthermore, the system could require periodic password changes (i.e. users must change their password every 3 months).
 
 3. Vulnerability - Exposed port
 
-	I was able to gain access to v0idcache's account via the exposed port 1337. Therefore, open/exposed ports should be closed if they are unused or do not provide any required services.
+	I was able to gain access to v0idcache's account via the exposed port 1337. Therefore, open/exposed ports should be closed if they are unused or do not provide any required services. Furthermore, a firewall with a well defined set of security rules could be set up to monitor network traffic. The firewall will block untrusted external networks.
