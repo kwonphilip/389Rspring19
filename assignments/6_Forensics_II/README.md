@@ -41,9 +41,13 @@ The network engineer has saved all network traffic from the intrusion. Can you a
 
     a) What kind of file is it?
 
+<<<<<<< HEAD
 	A JPEG file.
 
     b) Where was this photo taken? Provide a city, state and the name of the building in your answer.
+=======
+    b) Where was this photo taken? Provide a country and city in your answer.
+>>>>>>> upstream/master
 
 	
 

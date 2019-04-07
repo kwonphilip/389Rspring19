@@ -61,6 +61,6 @@ Digital acknowledgement: Philip Kwon
 
 	The timestamp for when the file was generated is 1553660105.
 
-	The author is fl1inch.
+	The author is fl1nch.
 
 	
