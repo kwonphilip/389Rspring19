@@ -31,11 +31,11 @@ Digital acknowledgement: Philip Kwon
 
     a) What kind of file is it?
 
-	A JPEG file named "find_me.jpeg" was stolen.
+	A JPEG file named "find_me.jpeg" wa s stolen.
 
     b) Where was this photo taken? Provide a city, state and the name of the building in your answer.
 
-	This photo was taken at: The Hand, Rambla General Artigas, 20100 Puna Del Este, Uruguay. The city is Punta Del Este. The county is La Pastora. The picture is of The Hand (or Los Dedos) on the beach. Based on the angle of the picture, the building that the picture was taken from is the Nogaro building, more specifically the El Sargo Resto & Cafe.
+	This photo was taken at: The Hand, Rambla General Artigas, 20100 Puna Del Este, Uruguay. The city is Punta Del Este. The county is La Pastora. The picture is of The Hand (or Los Dedos) on the beach.
 
     c) When was this photo taken? Provide a timestamp in your answer.
 
@@ -59,4 +59,8 @@ Digital acknowledgement: Philip Kwon
 
 ### Part 2 (55 Pts)
 
-*Replace this text with your repsonse to our prompt for part 2!*
+	The timestamp for when the file was generated is 1553660105.
+
+	The author is fl1inch.
+
+	
