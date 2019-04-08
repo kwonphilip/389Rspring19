@@ -59,8 +59,26 @@ Digital acknowledgement: Philip Kwon
 
 ### Part 2 (55 Pts)
 
-	The timestamp for when the file was generated is 1553660105.
+The timestamp for when the file was generated is 1553660105, which March 27, 2019 4:15:05 AM.
 
-	The author is fl1nch.
+The author is fl1nch.
 
-	
+Section 1
+	type = SECTION_ASCII
+	data = 'Hey you, keep looking :)'
+
+Section 2
+	type = SECTION_COORD
+	data (52.336035, 4.880673)
+
+Section 3
+	type = SECTION_PNG
+	data = CMSC389R-{w3lc0me_b@ck_fr0m_spr1ng_br3ak}
+
+Section 4
+	type = SECTION_ASCII
+	data = CMSC389R-{h0pefully_y0u_didnt_grep_CMSC389R}
+
+Section 5
+	type = SECTION_ASCII
+	data = Q01TQzM4OVIte2hleV9oM3lfeTBVX3lvdV9JX2RvbnRfbGlrZV95b3VyX2Jhc2U2NF9lbmNvZGluZ30=
