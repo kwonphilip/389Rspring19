@@ -16,15 +16,15 @@ int main(void) {
 	arr[1] = 0x1ceb00da;
 	arr[0] = 0xfeedface;
 
-	printf("%lx\n", arr[0]);
+	printf("%ld\n", arr[0]);
 
-	printf("%lx\n", arr[1]);
+	printf("%ld\n", arr[1]);
 
 	arr[0] ^= arr[1];
 	arr[1] ^= arr[0];
 	arr[0] ^= arr[1];
 
-	printf("%lx\n", arr[0]);
+	printf("%ld\n", arr[0]);
 
-	printf("%lx\n", arr[1]);
+	printf("%ld\n", arr[1]);
 }
