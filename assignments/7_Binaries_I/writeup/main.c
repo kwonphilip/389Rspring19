@@ -12,19 +12,18 @@
 #include <stdio.h>
 
 int main(void) {
-	unsigned long arr[4];
-	arr[1] = 0x1ceb00da;
-	arr[0] = 0xfeedface;
+	int a = 0x1ceb00da;
+	int b = 0xfeedface;
 
-	printf("%ld\n", arr[0]);
+	printf("%d\n", a);
 
-	printf("%ld\n", arr[1]);
+	printf("%d\n", b);
 
-	arr[0] ^= arr[1];
-	arr[1] ^= arr[0];
-	arr[0] ^= arr[1];
+	a ^= b;
+	b ^= a;
+	a ^= b;
 
-	printf("%ld\n", arr[0]);
+	printf("%d\n", a);
 
-	printf("%ld\n", arr[1]);
+	printf("%d\n", b);
 }

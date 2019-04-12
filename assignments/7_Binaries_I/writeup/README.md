@@ -19,24 +19,23 @@ printf("your code here");
 #include <stdio.h>
 
 int main(void) {
-	unsigned long arr[4];
-	arr[1] = 0x1ceb00da;
-	arr[0] = 0xfeedface;
+	int a = 0x1ceb00da;
+	int b = 0xfeedface;
 
-	printf("%lx\n", arr[0]);
+	printf("%d\n", a);
 
-	printf("%lx\n", arr[1]);
+	printf("%d\n", b);
 
-	arr[0] ^= arr[1];
-	arr[1] ^= arr[0];
-	arr[0] ^= arr[1];
+	a ^= b;
+	b ^= a;
+	a ^= b;
 
-	printf("%ld\n", arr[0]);
+	printf("%d\n", a);
 
-	printf("%ld\n", arr[1]);
+	printf("%d\n", b);
 }
 
 
 ### Part 2 (10 Pts)
 
-The program allocates space for an array of 4 elements, where each element is 4 bytes. The program then assigns 0xfeedface to the first element and 0x1ceb00da to the second element. The program then prints the first element and the second element. The program then swaps the first and second element (i.e. 0x1ceb00da is now the first element and 0xfeedface is now the second element) before printing the elements again.
+The program allocates space for 2 variables, where each variable is 4 bytes long. The program then assigns "0x1ceb00da" to one variable and "0xfeedface" to the other variable. The program then prints both variables. The program then swaps values of the variables and then prints both variables again.
