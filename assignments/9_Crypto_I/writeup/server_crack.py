@@ -59,7 +59,6 @@ def server_crack():
 
     data = data.decode('ascii')
     data = data.split()
-
     data = data[4]
 
     data2 = hash_pw[data] + '\n'
