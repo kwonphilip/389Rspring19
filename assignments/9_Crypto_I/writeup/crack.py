@@ -11,7 +11,7 @@ def crack():
 	hash_list = []
 
 	for line in hashes:
-		hash_list.append(line)
+		hash_list.append(line.rstrip())
 
 	passwords = []
 
@@ -28,8 +28,6 @@ def crack():
 			cp = c + p
 			cp2 = cp.encode()
 			hash_object = hashlib.sha256(cp2).hexdigest()
-
-			#print("cp = " + cp)
 
 			if hash_object in hash_list:
 				print(cp + ":" + hash_object)
