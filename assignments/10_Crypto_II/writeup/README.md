@@ -12,8 +12,9 @@ Digital acknowledgement: Philip Kwon
 
 ### Part 1 (70 Pts)
 
-CMSC389R-{m3ss@g3_!n_A_b0ttl3}
+![keys](./secret-keys-screenshot.jpg)
 
+CMSC389R-{m3ss@g3_!n_A_b0ttl3}
 
 ### Part 2 (30 Pts)
 
@@ -25,4 +26,4 @@ ecb.bmp
 
 ![ecb.bmp](./ecb.bmp)
 
-1. I notice that both pictures look grainy and like static. The cbc.bmp looks completely like static. The ecb.bmp still allows me to see the general outline of the original image through the static.
+1. I notice that both pictures look grainy and like static. The cbc.bmp looks completely like static. The ecb.bmp still allows me to see the general outline of the original image through the static. Also, the static of ecb.bmp looks patterned, unlike the random static of cbc.bmp.
