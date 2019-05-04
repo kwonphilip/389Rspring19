@@ -27,3 +27,5 @@ ecb.bmp
 ![ecb.bmp](./ecb.bmp)
 
 1. I notice that both pictures look grainy and like static. The cbc.bmp looks completely like static. The ecb.bmp still allows me to see the general outline of the original image through the static. Also, the static of ecb.bmp looks patterned, unlike the random static of cbc.bmp.
+
+2. The ECB block cipher mode is less secure. ECB encrypts identical plaintext blocks into identical ciphertext blocks. As a result, it does not hide data patterns well. In CBC, each block of plaintext is XORed with the previous ciphertext block before being encrypted. This way, each ciphertext block depends on all the plaintext blocks processed up to that point, which results in a more secure encryption compared to ECB.
