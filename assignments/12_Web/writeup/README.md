@@ -30,19 +30,19 @@ Flag - CMSC389R-{y0u_ar3_th3_SQ1_ninj@}
 
 Level 1
 
-Answer - <script>alert()</script>    Type the script in the search box
+Answer - <script>alert()</script>	Type the script in the search box
 
 I looked up how to write an alert script. I tried writing the above script alert in the URL box, but that did nothing. Then I tried writing the script alert in the search box, which was the correct answer.
 
 Level 2
 
-Answer - <img src="image.gif" onerror="javascript:alert()"></img>     Type into the box and share post.
+Answer - \<img src="image.gif" onerror="javascript:alert()"></img>	Type into the box and share post.
 
 I tried using the same script alert as before, but that did not produce the result I wanted. The hints said to use img and onerror, so I looked up img and onerror. From this I tried variations such as '<img src="image.gif" onerror=alert()></img>' and '<img src="image.gif" onerror=function(){alert();return true;}></img>'. Then I also looked up onerror popupalerts in img and refined my answer to '<img src="image.gif" onerror="javascript:alert()"></img>' which was the answer.
 
 Level 3
 
-Answer - 'onerror="javascript:alert()"'    Type into the URL after "frame#x", where x can be 1, 2, or 3.
+Answer - 'onerror="javascript:alert()"'		Type into the URL after "frame#x", where x can be 1, 2, or 3.
 
 The hints stated that data in the window.location object could be influenced by an attacker. I assumed this was related to "frame#" portion in the URL since that was the only part that changed when I clicked on the different images. I tried typing alert() and javascript:alert() into the URL. Eventually I realized that I needed to add quotes, and after a few tries, I found that 'onerror="javascript:alert()"' worked.
 
