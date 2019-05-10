@@ -36,9 +36,9 @@ I looked up how to write an alert script. I tried writing the above script alert
 
 Level 2
 
-Answer - \<img src="image.gif" onerror="javascript:alert()"></img>	Type into the box and share post.
+Answer - \<img src="image.gif" onerror="javascript:alert()">\</img>	Type into the box and share post.
 
-I tried using the same script alert as before, but that did not produce the result I wanted. The hints said to use img and onerror, so I looked up img and onerror. From this I tried variations such as '<img src="image.gif" onerror=alert()></img>' and '<img src="image.gif" onerror=function(){alert();return true;}></img>'. Then I also looked up onerror popupalerts in img and refined my answer to '<img src="image.gif" onerror="javascript:alert()"></img>' which was the answer.
+I tried using the same script alert as before, but that did not produce the result I wanted. The hints said to use img and onerror, so I looked up img and onerror. From this I tried variations such as '\<img src="image.gif" onerror=alert()>\</img>' and '\<img src="image.gif" onerror=function(){alert();return true;}>\</img>'. Then I also looked up onerror popupalerts in img and refined my answer to '\<img src="image.gif" onerror="javascript:alert()">\</img>' which was the answer.
 
 Level 3
 
