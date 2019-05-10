@@ -34,7 +34,7 @@ Answer - <script>alert()</script>
 
 Type the above into the search box
 
-I looked up how to write an alert script. I tried writing the above script alert in the URL box, but that did nothing. Then I tried writing the script alert in the search box, which was the correct answer.
+I looked up how to write an alert script. I tried writing the above script alert in the URL box, but that did nothing. Then I tried writing the alert script in the search box, which was the correct answer.
 
 Level 2
 
@@ -50,7 +50,7 @@ Answer - 'onerror="javascript:alert()"'
 
 Type the above into the URL after "frame#x", where x can be 1, 2, or 3.
 
-The hints stated that data in the window.location object could be influenced by an attacker. I assumed this was related to "frame#" portion in the URL since that was the only part that changed when I clicked on the different images. I tried typing alert() and javascript:alert() into the URL. Eventually I realized that I needed to add quotes, and after a few tries, I found that 'onerror="javascript:alert()"' worked.
+The hints stated that data in the window.location object could be influenced by an attacker. I assumed this was related to "frame#" portion in the URL since that was the only part that changed when I clicked on the different images. I tried typing alert() and javascript:alert() into the URL. Eventually I realized that I needed to add quotes (similar to the tautology injection in part 1 of the homework), and after a few tries, I found that 'onerror="javascript:alert()"' worked.
 
 Level 4
 
@@ -58,7 +58,7 @@ Answer - ');alert('
 
 Type the above into the timer box and then click the 'create timer' button.
 
-The hints indicated I try inputing a single quote. When I did this, I noticed that the timer never went off. From this I assumed that we could use quote to inject code. I tried variations of 'alert()' and onerror. Then I realized I the code injection would go where "timer" was under startTimer. Therefore, I needed a single quote and a close parenthesis. Next I tried ');alert()', but this still did nothing. It took a while before I realized I needed an open parenthesis to since I was starting with a closed parenthesis.
+The hints indicated I try inputing a single quote. When I did this, I noticed that the timer never went off. From this I assumed that we could use quotes to inject code. I tried variations of 'alert()' and onerror. Then I realized I the code injection would go where "timer" was under startTimer. Therefore, I needed a single quote and a close parenthesis. Next I tried ');alert()', but this still did nothing. It took a while before I realized I needed an open parenthesis to since I was starting with a closed parenthesis.
 
 Level 5
 
@@ -72,4 +72,4 @@ Answer - https://xss-game.appspot.com/level6/frame#HTTPS://google.com/jsapi?call
 
 Type the above into the URL box and click "Go"
 
-One hint said pointed me to the # in the URL bar. I tried using variations of my previous answers to replace everything after the # in the URL, but that did not work. Another hint said to use 'google.com/jsapi?callback=foo'. I remembered that "foo" tends to be a filler name for random functions so I tried replacing foo with alert(). So, I put "https://google.com/jsapi?callback=alert()" after the #. At first this did not work because it did not allow for loading URLs containing "http". After a while, I noticed that it did not sanitize "HTTPS", so I replaced "https" with "HTTPS. This still did not work. Then I noticed in the hint that foo did not have "()". So I tried deleting the "()" after "alert" and this worked.
+One hint said pointed me to the # in the URL bar. I tried using variations of my previous answers to replace everything after the # in the URL, but that did not work. Another hint said to use 'google.com/jsapi?callback=foo'. I remembered that "foo" tends to be a filler name for functions so I tried replacing foo with alert(). So, I put "https://google.com/jsapi?callback=alert()" after the #. At first this did not work because it did not allow for loading URLs containing "http". After a while, I noticed that it did not sanitize "HTTPS", so I replaced "https" with "HTTPS. This still did not work. Then I noticed in the hint that foo did not have "()". So I tried deleting the "()" after "alert" and this worked.
